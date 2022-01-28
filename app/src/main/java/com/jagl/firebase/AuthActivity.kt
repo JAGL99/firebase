@@ -32,8 +32,6 @@ class AuthActivity : AppCompatActivity() {
 
     private val callbackManager = CallbackManager.Factory.create()
 
-    //keytool -exportcert -alias androiddebugkey -keystore "C:\Users\jguzm\.android\debug.keystore" | "D:\openssl-0.9.8k_X64\bin\openssl" sha1 -binary | "D:\openssl-0.9.8k_X64\bin\openssl" base64
-
     private lateinit var binding: ActivityAuthBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
